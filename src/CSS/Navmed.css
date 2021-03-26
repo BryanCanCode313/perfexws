@@ -1,0 +1,8 @@
+ul.bluebar {
+  background: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+git addNavmed.css.map */

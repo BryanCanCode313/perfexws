@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAC,AAAA,EAAE,AAAA,QAAQ,CAAC;EACR,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,IAEX;CAAC",
+    "sources": [
+        "Navmed.scss"
+    ],
+    "names": [],
+    "file": "Navmed.css"
+}
