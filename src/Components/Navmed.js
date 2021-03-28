@@ -5,19 +5,34 @@ import '../CSS/Navmed.css';
 
 import resp from "../../public/headerimg/respiratorycallnow.png"
 import PElogo from "../../public/headerimg/PE Med logo PE_-4.png"
-// import shop_cart from "../img/headerimg/shopping cart-1.png"
-// import email_logo from '../img/headerimg/email_phone.png'
-// import email_phone from '../img/headerimg/new email logo-1.png'
+import email_logo from "../../public/headerimg/email_phone.png"
+import email_phone from "../../public/headerimg/new email logo-1.png"
 
 
 
 
-const Navmed = (props) => {
+const Navmed = () => {
   return (
     <div>
-        
             <ul className='bluebar'>
                     <h5>Free Shipping for Orders Over $50</h5>
+                        
+                        <div className="inheaderbar">                    
+                            <img className='phoneicon' src={email_logo} alt="email logo" /> 
+                                <a>
+                                    281-558-2273
+                                </a>
+                                <img className="emailicon" src={email_phone} alt="phone icon" />          
+                                <a>
+                                    info@pemedicalsupplies.com
+                                </a>                                                    
+                                <a>
+                                    Orders 
+                                </a>         
+                                <a>
+                                    Returns
+                                </a>
+                        </div>
             </ul>  
                 <div className='secdiv'>
                         <div className='firstbox'>
@@ -31,14 +46,13 @@ const Navmed = (props) => {
                         </div>
 
                         <div className="middbox">
-                              <div className='searchinput'>
+                              <div className='srchinput'>
                                     <input type='text'/>
                               </div>
                         </div>
 
                         <div className="lastbox">
                         </div>
-
                 </div>
             <Nav>
                     <NavItem>

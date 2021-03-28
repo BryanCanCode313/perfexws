@@ -1,29 +1,25 @@
 
 import React, { Component } from 'react';
 
-import Carouseldiv from './Components/Carouseldiv';
-import Navmed from '../src/Components/Navmed'; 
+import Navmed from './Components/Navmed';
+import Carouseldiv from './Components/Carouseldiv'; 
 import PEbody from '../src/Components/PEbody';
-
 
 import './CSS/PEbody.scss';
 import './CSS/Cardcarobluebox.scss';
 import './CSS/Cardcomp.scss';
-import './CSS/Carouseldiv.scss';
 
 import './App.scss';
 
 class App extends Component {
-  render() {
 
-   
+  render() {
 
     return (
       <div className="App">
         <Navmed />
         <Carouseldiv />
         <PEbody />
-        {/* <PEfooter /> */}
       </div>
     );
     

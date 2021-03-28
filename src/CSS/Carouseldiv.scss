@@ -1,0 +1,40 @@
+// @mixin sliderbox($size, $circle: false) {
+//     width: $size;
+//     height: $size;
+  
+//     @if $circle {
+//       border-radius: $size / 2;
+//     }
+//   }
+  
+//   .square-av {
+//     @include sliderbox(100px, $circle: false);
+//   }
+//   .circle-av {
+//     @include sliderbox(100px, $circle: true);
+//   }
+
+
+//if the slider component is a child of ucaro then act different
+
+div.slick-slider.slick-initialized {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: auto;
+    padding: auto;
+    width: 700px;
+    height: 200px;
+    border: 1px solid red;
+
+
+    div img {
+
+        border: 10px solid red;
+
+    }
+
+}
+
+
+

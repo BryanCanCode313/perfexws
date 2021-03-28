@@ -1,8 +1,163 @@
 ul.bluebar {
-  background: blue;
+  background: #1750A7;
+  width: auto;
+  height: 50px;
+  margin: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+}
+
+ul.bluebar h5 {
+  margin: auto;
+  margin-right: 8%;
+  color: white;
+  font-size: 19px;
+  font-family: Palatino Linotype;
+}
+
+ul.bluebar .inheaderbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+
+ul.bluebar img.phoneicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: auto;
+  height: 20px;
+}
+
+ul.bluebar img.emailicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+ul.bluebar a {
+  margin: auto 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  font-family: Open Sans;
+}
+
+.secdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  width: auto;
+  background: whitesmoke;
+}
+
+.secdiv .firstbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto 100px;
+  margin-top: 10px;
+}
+
+.secdiv .firstbox .respmask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 25px;
+}
+
+.secdiv .firstbox .respmask img {
+  width: auto;
+  height: auto;
+}
+
+.secdiv .firstbox .logodiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 20px;
+}
+
+.secdiv .middbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 100px;
+  width: 408px;
+}
+
+.secdiv .middbox .srchinput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.secdiv .middbox input {
+  width: 400px;
+  height: auto;
+}
+
+.secdiv .lastbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto 100px;
+}
+
+ul.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: rgba(23, 81, 167, 0.384);
+  margin: 0px;
+  height: 45px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+ul.nav li.nav-item {
+  list-style: none;
+  margin: auto 25px;
+  padding: auto;
+}
+
+ul.nav li.nav-item a {
+  color: white;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=Navmed.css.map */

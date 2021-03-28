@@ -1,23 +1,22 @@
 import React, { Component } from 'react'
-import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Navbar'
 
+import '../CSS/HeaderMel.scss' 
 
-import PElogo from "../img/headerimg/PE Med logo PE_-4.png"
-import shop_cart from "../img/headerimg/shopping cart-1.png"
-import resp from "../img/headerimg/respiratorycallnow.png"
-import email_logo from '../img/headerimg/email_phone.png'
-import email_phone from '../img/headerimg/new email logo-1.png'
+import PElogo from "../../public/headerimg/PE Med logo PE_-4.png"
+import shop_cart from "../../public/headerimg/shopping cart-1.png"
+import resp from "../../public/headerimg/respiratorycallnow.png"
+
 
 
 class Headermel extends Component {
     render() {
 
-        const Navbarr = () => {
+        const Navbarr = (props) => {
 
             return (
 
-                <Nav>
-                 
+                <Nav>                
                     <div className="bluebar">    
                             <p>Free Shipping for Orders Over $50</p>
                     
@@ -98,12 +97,9 @@ class Headermel extends Component {
                 </Nav> 
             );
         }
-
-
-        return(
-            <Navbarr />
-        );
     }
-}
 
-export default Headermel
+        
+} 
+
+export default Headermel;
