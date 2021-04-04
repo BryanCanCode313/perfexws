@@ -1,0 +1,15 @@
+div.carcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  padding: auto;
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=BCarousel.css.map */

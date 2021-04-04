@@ -1,7 +1,10 @@
 import React  from 'react';
-// import { Component } from 'react';
-import Cardcarobluebox from '../Components/Cardcarobluebox';
-import '../CSS/Cardcarobluebox.scss';
+
+// import Cardcarobluebox from '../Components/Cardcarobluebox';
+import Cardcomp from '../Components/Cardcomp';
+
+import '../CSS/PEbody.css';
+import '../CSS/Cardcomp.css';
 
 export default function PEbody() {
 
@@ -31,7 +34,7 @@ export default function PEbody() {
                    ];
 
                   
-    const blueboxdiv = titlebox.map((titlebox) => <div key={titlebox.key} className="blueboxs"><h4>{titlebox.titleone}<span className="colorbox" style={titlebox.titletwo.length === 0 ? {display: 'none'} : {flexdirection: 'row'}}>{titlebox.titletwo}</span></h4><Cardcarobluebox /></div>);    
+    const blueboxdiv = titlebox.map((titlebox) => <div key={titlebox.key} className="blueboxs"><h4>{titlebox.titleone}<span className="colorbox" style={titlebox.titletwo.length === 0 ? {display: 'none'} : {flexdirection: 'row'}}>{titlebox.titletwo}</span></h4><Cardcomp /></div>);    
                   
     return (             
               <div className="ucaro"> 
@@ -41,5 +44,5 @@ export default function PEbody() {
   } 
 
 
- 
+ // can I use dot-notation to access the "blueboxdiv" so i can make each one host a diff carousel?
 

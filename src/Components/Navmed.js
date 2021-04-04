@@ -15,6 +15,7 @@ const Navmed = () => {
   return (
     <div>
             <ul className='bluebar'>
+                    <div className="mtspace"/>
                     <h5>Free Shipping for Orders Over $50</h5>
                         
                         <div className="inheaderbar">                    

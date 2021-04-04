@@ -2,14 +2,14 @@
 import React, { Component } from 'react';
 
 import Navmed from './Components/Navmed';
-import Carouseldiv from './Components/Carouseldiv'; 
+import BCarousel from './Components/BCarousel'; 
 import PEbody from '../src/Components/PEbody';
 
-import './CSS/PEbody.scss';
-import './CSS/Cardcarobluebox.scss';
-import './CSS/Cardcomp.scss';
 
-import './App.scss';
+
+
+
+import './App.css';
 
 class App extends Component {
 
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navmed />
-        <Carouseldiv />
+        <BCarousel /> 
         <PEbody />
       </div>
     );
